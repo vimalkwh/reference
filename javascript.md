@@ -448,6 +448,19 @@ console.log(myArray[1]); // 200
 ```
 
 
+### Method .unshift()
+
+```javascript
+// Adding a single element at beginning:
+const cart = ['apple', 'orange'];
+cart.unshift('pear'); 
+console.log(cart);  // [ 'pear', 'apple', 'orange' ]
+// Adding multiple elements:
+const numbers = [4, 5];
+numbers.unshift(1, 2, 3); // [ 1, 2, 3, 4, 5 ]
+```
+
+
 ### Method .push()
 
 ```javascript
@@ -458,6 +471,16 @@ cart.push('pear');
 // Adding multiple elements:
 const numbers = [1, 2];
 numbers.push(3, 4, 5);
+```
+
+
+### Method .shift()
+
+```javascript
+const a= ['eggs', 'flour', 'chocolate'];
+//Remove element from beginning
+const p = a.shift(); // 'eggs'
+console.log(a); // [ 'flour', 'chocolate' ]
 ```
 
 
